@@ -1,94 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>RenteHelp</title>
         <meta charset="utf-8" />
-        <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        <title>PensionAid</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="keywords" />
+        <meta content="" name="description" />
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display:wght@700;900&display=swap"
+            rel="stylesheet"
         />
 
+        <!-- Icon Font Stylesheet -->
         <link
-            href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
             rel="stylesheet"
         />
         <link
-            href="https://fonts.googleapis.com/css?family=Abril+Fatface"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
             rel="stylesheet"
         />
 
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
         <link
-            rel="shortcut icon"
-            href="images/favicon.png"
-            type="image/x-icon"
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
         />
 
-        <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css" />
-        <link rel="stylesheet" href="css/animate.css" />
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
 
-        <link rel="stylesheet" href="css/owl.carousel.min.css" />
-        <link rel="stylesheet" href="css/owl.theme.default.min.css" />
-        <link rel="stylesheet" href="css/magnific-popup.css" />
-
-        <link rel="stylesheet" href="css/aos.css" />
-
-        <link rel="stylesheet" href="css/ionicons.min.css" />
-
-        <link rel="stylesheet" href="css/bootstrap-datepicker.css" />
-        <link rel="stylesheet" href="css/jquery.timepicker.css" />
-
-        <link rel="stylesheet" href="css/flaticon.css" />
-        <link rel="stylesheet" href="css/icomoon.css" />
-        <link rel="stylesheet" href="css/style.css" />
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
     </head>
+
     <body>
-        <nav
-            class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light"
-            id="ftco-navbar"
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div
+                class="spinner-border text-primary"
+                role="status"
+                style="width: 3rem; height: 3rem"
+            ></div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar Start -->
+        <div
+            style="
+                box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+            "
+            class="container-fluid bg-white sticky-top"
         >
             <div class="container">
-                <a class="navbar-brand" href="index.html">RenteHelp</a>
-                <button
-                    class="navbar-toggler"
-                    type="button"
-                    data-toggle="collapse"
-                    data-target="#ftco-nav"
-                    aria-controls="ftco-nav"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation"
+                <nav
+                    class="navbar navbar-expand-lg bg-white navbar-light py-2 py-lg-0"
                 >
-                    <span class="oi oi-menu"></span> Menu
-                </button>
-
-                <div class="collapse navbar-collapse" id="ftco-nav">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a href="index.html" class="nav-link">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="about.html" class="nav-link">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="services.html" class="nav-link active"
-                                >Services</a
+                    <a href="index.html" class="navbar-brand"
+                        ><h2>PensionAid</h2></a
+                    >
+                    <button
+                        type="button"
+                        class="navbar-toggler ms-auto me-0"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarCollapse"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <div class="navbar-nav ms-auto">
+                            <a
+                                href="index.html"
+                                class="nav-item nav-link active"
+                                >Home</a
                             >
-                        </li>
-                        <li class="nav-item">
-                            <a href="testimonials.html" class="nav-link"
-                                >Testimonials</a
+                            <a href="about.html" class="nav-item nav-link"
+                                >About</a
                             >
-                        </li>
-                        <li class="nav-item">
-                            <a href="blog.html" class="nav-link">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="contact.html" class="nav-link">Contact</a>
-                        </li>
-                    </ul>
-                </div>
+                            <a href="product.html" class="nav-item nav-link"
+                                >Products</a
+                            >
+                            <a href="store.html" class="nav-item nav-link"
+                                >Our Benefits</a
+                            >
+                            <a href="testimonial.html" class="nav-item nav-link"
+                                >Testimonial</a
+                            >
+                            <a href="contact.html" class="nav-item nav-link"
+                                >Contact</a
+                            >
+                        </div>
+                    </div>
+                </nav>
             </div>
-        </nav>
-        <!-- END nav -->
+        </div>
+        <!-- Navbar End -->
+
         <main>
             <article
                 class="container additional-wrapper"
@@ -206,7 +224,7 @@
                     <h2>10. Contact Us</h2>
                     <p>
                         If you have any questions or concerns regarding these
-                        Terms of Use, please contact us at rente_help@gmail.com
+                        Terms of Use, please contact us at pension_aid@gmail.com
                         for further assistance.
                     </p>
 
@@ -223,114 +241,86 @@
             </article>
         </main>
 
-        <footer class="ftco-footer ftco-bg-dark ftco-section">
-            <div class="container">
-                <div class="row mb-5">
-                    <div class="col-md">
-                        <div class="ftco-footer-widget mb-4">
-                            <h2 class="ftco-heading-2">RenteHelp</h2>
-                            <p>
-                                At our agency, we are dedicated to providing
-                                expert advice and support for retirees
-                                navigating the complexities of the Canada
-                                Pension Plan and other public pensions. Our
-                                mission is to ensure you have a secure and
-                                informed retirement by offering personalized
-                                guidance, maximizing your pension benefits, and
-                                utilizing advanced planning tools.
-                            </p>
-                        </div>
+        <!-- Footer Start -->
+        <div
+            class="container-fluid bg-dark footer mt-5 py-5 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h3 class="text-white">PensionAid</h3>
+                        <p>
+                            At our agency, we are dedicated to assisting
+                            retirees in navigating the complexities of the
+                            Canada Pension Plan and other public pensions. Our
+                            mission is to provide personalized guidance,
+                            strategies for maximizing your pension benefits, and
+                            advanced tools for effective retirement planning.
+                        </p>
                     </div>
-                    <div class="col-md">
-                        <div class="ftco-footer-widget mb-4 ml-md-4">
-                            <h2 class="ftco-heading-2">Quick links</h2>
-                            <ul class="list-unstyled">
-                                <li>
-                                    <a href="index.html" class="py-2 d-block"
-                                        >Home</a
-                                    >
-                                </li>
-                                <li>
-                                    <a href="about.html" class="py-2 d-block"
-                                        >About Us</a
-                                    >
-                                </li>
-                                <li>
-                                    <a
-                                        href="privacy-policy.html"
-                                        class="py-2 d-block"
-                                        >Privacy Policy</a
-                                    >
-                                </li>
-                            </ul>
-                        </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="text-primary mb-4">Our Office</h4>
+                        <p class="mb-2">
+                            <i
+                                class="fa fa-map-marker-alt text-primary me-3"
+                            ></i
+                            >320 Sherbrook St, Winnipeg, MB R3B 2W6, Canada
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-phone-alt text-primary me-3"></i
+                            >+12047841240
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-envelope text-primary me-3"></i
+                            >pension_aid@gmail.com
+                        </p>
                     </div>
-                    <div class="col-md">
-                        <div class="ftco-footer-widget mb-4">
-                            <h2 class="ftco-heading-2">Have a Questions?</h2>
-                            <div class="block-23 mb-3">
-                                <ul>
-                                    <li>
-                                        <span
-                                            class="icon icon-map-marker"
-                                        ></span
-                                        ><span class="text"
-                                            >25 Forks Market Rd #330, Winnipeg,
-                                            MB R3C 4S8, Canada</span
-                                        >
-                                    </li>
-                                    <li>
-                                        <a href="#"
-                                            ><span
-                                                class="icon icon-phone"
-                                            ></span
-                                            ><span class="text"
-                                                >+12049490048</span
-                                            ></a
-                                        >
-                                    </li>
-                                    <li>
-                                        <a href="#"
-                                            ><span
-                                                class="icon icon-envelope"
-                                            ></span
-                                            ><span class="text"
-                                                >rente_help@gmail.com</span
-                                            ></a
-                                        >
-                                    </li>
-                                </ul>
-                            </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="text-primary mb-4">Quick Links</h4>
+                        <a class="btn btn-link" href="about.html">About Us</a>
+                        <a class="btn btn-link" href="contact.html"
+                            >Contact Us</a
+                        >
+                        <a class="btn btn-link" href="privacy-policy.html"
+                            >Privacy Policy</a
+                        >
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="text-primary mb-4">Newsletter</h4>
+                        <p>
+                            Dolor amet sit justo amet elitr clita ipsum elitr
+                            est.
+                        </p>
+                        <div class="position-relative w-100">
+                            <input
+                                class="form-control bg-transparent w-100 py-3 ps-4 pe-5"
+                                type="text"
+                                placeholder="Your email"
+                                id="email"
+                            />
+                            <button
+                                type="button"
+                                class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"
+                                id="submit"
+                                onclick="sendForm()"
+                            >
+                                SignUp
+                            </button>
+                            <div id="result" style="color: red"></div>
                         </div>
                     </div>
                 </div>
             </div>
-        </footer>
-
-        <!-- loader -->
-        <div id="ftco-loader" class="show fullscreen">
-            <svg class="circular" width="48px" height="48px">
-                <circle
-                    class="path-bg"
-                    cx="24"
-                    cy="24"
-                    r="22"
-                    fill="none"
-                    stroke-width="4"
-                    stroke="#eeeeee"
-                />
-                <circle
-                    class="path"
-                    cx="24"
-                    cy="24"
-                    r="22"
-                    fill="none"
-                    stroke-width="4"
-                    stroke-miterlimit="10"
-                    stroke="#F96D00"
-                />
-            </svg>
         </div>
+        <!-- Footer End -->
+
+        <!-- Back to Top -->
+        <a
+            href="#"
+            class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"
+            ><i class="bi bi-arrow-up"></i
+        ></a>
 
         <!-- Cookie banner -->
         <div class="cookie-wrapper show">
@@ -355,22 +345,15 @@
 
         <!-- End Cookie banner -->
 
-        <script src="js/jquery.min.js"></script>
-        <script src="js/jquery-migrate-3.0.1.min.js"></script>
-        <script src="js/popper.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/jquery.easing.1.3.js"></script>
-        <script src="js/jquery.waypoints.min.js"></script>
-        <script src="js/jquery.stellar.min.js"></script>
-        <script src="js/owl.carousel.min.js"></script>
-        <script src="js/jquery.magnific-popup.min.js"></script>
-        <script src="js/aos.js"></script>
-        <script src="js/jquery.animateNumber.min.js"></script>
-        <script src="js/bootstrap-datepicker.js"></script>
-        <script src="js/jquery.timepicker.min.js"></script>
-        <script src="js/scrollax.min.js"></script>
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-        <script src="js/google-map.js"></script>
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Template Javascript -->
         <script src="js/main.js"></script>
         <script src="js/contact-form.js"></script>
         <script src="js/cookiebanner.js"></script>
